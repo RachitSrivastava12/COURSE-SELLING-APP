@@ -73,7 +73,7 @@ function Signup(){
   } catch (error) {
     console.error("There was a problem with the fetch operation:", error);
   }
-  window.location = "/";
+  window.location = "/courses";
 }}>
   Sign up
 </Button>
