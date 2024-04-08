@@ -3,6 +3,7 @@ import TextField from '@mui/material/TextField';
 import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
 import AppBar from "./AppBar";
+import Courses from "./Courses";
 import { useState } from 'react';
 function Signup(){
     const [email , setemail] = useState("");
